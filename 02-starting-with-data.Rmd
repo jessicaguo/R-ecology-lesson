@@ -389,9 +389,9 @@ In RStudio, you can use the autocompletion feature to get the full and correct n
 ### Factors
 ```
 
-When we did `str(surveys)` we saw that several of the columns consist of
-integers. The columns `genus`, `species`, `sex`, `plot_type`, ... however, are
-of the class `character`.
+When we did `str(surveys)` we saw that several of the columns are of class `numeric`. 
+The columns `genus`, `species`, `sex`, `plot_type`, ... however, are
+of class `character`.
 Arguably, these columns contain categorical data, that is, they can only take on
 a limited number of values. 
 
